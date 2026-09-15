@@ -63,9 +63,6 @@ def load_image(image: str | Image.Image | None) -> Image.Image | None:
         return None
     if isinstance(image, Image.Image):
         return image.convert("RGB")
-    if isinstance(image, str) and image.startswith(("http://", "https://")):
-        with urlopen(image, timeout=10) as resp:
-            return Image.open(BytesIO(resp.read())).convert("RGB")
     return Image.open(image).convert("RGB")
 
 

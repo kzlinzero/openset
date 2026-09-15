@@ -79,6 +79,7 @@ def load_mm_safetybench_sample(
                     ),
                     "question": v["Rephrased Question"],
                     "unsafe_category": category,
+                    "unsafe_category_id": int(category.split("-", 1)[0]),
                 }
                 for k, v in prompts.items()
             ]
@@ -220,3 +221,49 @@ def load_figStep(
             dataset += cases[0:first_n]
 
     return dataset
+
+
+# =============================== main testing ===============================
+def main():
+    dataset_path = "./datasets/MM-SafetyBench"  # 改成你的实际路径
+
+    dataset = load_mm_safetybench_sample(
+        dataset_path=dataset_path,
+        image_type=MMImageTypes.IMAGE_WITH_TEXT,
+        sample_size=200,   # None 表示全量
+        seed=42,
+    )
+
+    # ============ 基本信息 ============
+    print("=" * 60)
+    print("Dataset Basic Info")
+    print("=" * 60)
+    print(f"Total samples: {len(dataset)}")
+
+    # 每个类别数量统计
+    from collections import Counter
+    cat_counter = Counter(item["unsafe_category"] for item in dataset)
+    print(f"Number of categories: {len(cat_counter)}")
+    print("Samples per category:")
+    for cat in categories:
+        if cat in cat_counter:
+            print(f"  {cat}: {cat_counter[cat]}")
+
+    # ============ 前 10 条 ============
+    print("\n" + "=" * 60)
+    print("First 10 samples")
+    print("=" * 60)
+    for i, item in enumerate(dataset[:10]):
+        print(f"[{i}] {item}")
+
+    # ============ 后 10 条 ============
+    print("\n" + "=" * 60)
+    print("Last 10 samples")
+    print("=" * 60)
+    n = len(dataset)
+    for i, item in enumerate(dataset[-10:]):
+        print(f"[{n - 10 + i}] {item}")
+
+
+if __name__ == "__main__":
+    main()
