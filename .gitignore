@@ -182,3 +182,6 @@ cython_debug/
 
 # datasets
 /datasets/MM-SafetyBench/imgs/
+
+# get-embedding 产物（feature 文件是本地产物，需要提交时删掉下面这行）
+/get-embedding/outputs/
