@@ -180,6 +180,8 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+.idea/
+
 # datasets
 /datasets/MM-SafetyBench/imgs/
 
