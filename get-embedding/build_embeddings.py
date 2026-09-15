@@ -47,7 +47,9 @@ from model_runner import (  # noqa: E402
     prepare_inputs,
 )
 
+# 可选[Qwen/Qwen3-VL-8B-Instruct] [Qwen/Qwen3.5-0.8B]
 DEFAULT_MODEL_NAME = "Qwen/Qwen3.5-0.8B"
+# /home/user/models/Qwen3-VL-8B-Instruct
 DEFAULT_LOCAL_MODEL_DIR = (
     r"C:\Users\kzlin\.cache\huggingface\hub"
     r"\models--Qwen--Qwen3.5-0.8B\snapshots\2fc06364715b967f1860aea9cf38778875588b17"
