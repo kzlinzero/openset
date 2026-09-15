@@ -12,19 +12,49 @@ from PIL import Image
 from transformers import AutoModelForMultimodalLM, AutoProcessor
 
 
-def load_model(model_name: str, hf_token: str | None = None, dtype=torch.float16):
-    """加载 processor 与模型，返回 (processor, model)。"""
+def resolve_model_source(
+    model_name: str,
+    local_dir: str | None = None,
+) -> tuple[str, bool]:
+    """决定到底从哪里加载。
+
+    规则：
+      - local_dir 指定且是一个存在的目录 → 用 local_dir（本地加载）
+      - 否则                              → 用 model_name（HF Hub ID 或缓存）
+
+    返回 (实际加载路径, 是否来自本地目录)。
+    """
+    if local_dir and os.path.isdir(local_dir):
+        return local_dir, True
+    return model_name, False
+
+
+def load_model(
+    model_name: str,
+    hf_token: str | None = None,
+    dtype=torch.float16,
+    local_dir: str | None = None,
+):
+    """加载 processor 与模型。
+
+    优先使用 local_dir（若存在且是目录），否则回退到 model_name
+    （transformers 会自动命中本地缓存，没有缓存才会真正下载）。
+
+    返回 (processor, model, source, is_local)。
+    """
     if hf_token:
         os.environ["HF_TOKEN"] = hf_token
 
-    processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+    source, is_local = resolve_model_source(model_name, local_dir)
+
+    processor = AutoProcessor.from_pretrained(source, trust_remote_code=True)
     model = AutoModelForMultimodalLM.from_pretrained(
-        model_name,
+        source,
         device_map="auto",
         dtype=dtype,
         trust_remote_code=True,
     )
-    return processor, model
+    return processor, model, source, is_local
 
 
 def load_image(image: str | Image.Image | None) -> Image.Image | None:
