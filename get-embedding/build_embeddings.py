@@ -17,8 +17,10 @@
   python build_embeddings.py --sample-size 200
   python build_embeddings.py --layer -4 --dtype bf16 --tag layer4
 """
-
 from __future__ import annotations
+
+import os
+os.environ.setdefault("CUDA_VISIBLE_DEVICES", "1")
 
 import argparse
 import json
@@ -48,12 +50,9 @@ from model_runner import (  # noqa: E402
 )
 
 # 可选[Qwen/Qwen3-VL-8B-Instruct] [Qwen/Qwen3.5-0.8B]
-DEFAULT_MODEL_NAME = "Qwen/Qwen3.5-0.8B"
+DEFAULT_MODEL_NAME = "Qwen/Qwen3-VL-8B-Instruct"
 # /home/user/models/Qwen3-VL-8B-Instruct
-DEFAULT_LOCAL_MODEL_DIR = (
-    r"C:\Users\kzlin\.cache\huggingface\hub"
-    r"\models--Qwen--Qwen3.5-0.8B\snapshots\2fc06364715b967f1860aea9cf38778875588b17"
-)
+DEFAULT_LOCAL_MODEL_DIR = "/home/user/models/Qwen3-VL-8B-Instruct"
 
 # 落盘的字段顺序，npz 与 jsonl 共用
 FIELDS = ("index", "image_path", "question", "unsafe_category", "unsafe_category_id", "response")
