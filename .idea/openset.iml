@@ -2,7 +2,7 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="jdk" jdkName="SSH (sftp://user@172.21.13.145:22/home/user/miniconda3/envs/kx1/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="D:\ProgramKZ\AnacondaKZ\envs\llm2" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
