@@ -233,7 +233,7 @@ def print_samples(
                 continue
             value = arr[row]
             if key in ("question", "response"):
-                text = str(value)
+                text = " ".join(str(value).split())  # 折叠所有空白（含换行）
                 if len(text) > max_chars:
                     text = text[:max_chars] + f" …(+{len(text) - max_chars} chars)"
                 print(f"  {key:<18}: {text}")
@@ -241,11 +241,11 @@ def print_samples(
                 print(f"  {key:<18}: {value}")
         if features is not None and features.ndim == 2:
             vec = features[row].astype(np.float32)
-            print(f"  feature            : dim={vec.shape[0]} "
+            print(f"  feature           : dim={vec.shape[0]} "
                   f"norm={np.linalg.norm(vec):.4f} "
                   f"mean={vec.mean():.6f} std={vec.std():.6f}")
-            head = ", ".join(f"{x:+.4f}" for x in vec[:8])
-            print(f"  前 8 维            : [{head}, ...]")
+            head = ", ".join(f"{x:+.4f}" for x in vec[:10])
+            print(f"  前 10 维          : [{head}, ...]")
 
 
 def print_manifest(npz_path: Path) -> None:
