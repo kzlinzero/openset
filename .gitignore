@@ -187,3 +187,6 @@ cython_debug/
 
 # get-embedding 产物（feature 文件是本地产物，需要提交时删掉下面这行）
 /get-embedding/outputs/
+
+# openset-proto 产物（日志 / 指标 / 分数）
+/openset-proto/outputs/
