@@ -20,7 +20,7 @@
 from __future__ import annotations
 
 import os
-os.environ.setdefault("CUDA_VISIBLE_DEVICES", "1")
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 import argparse
 import json
@@ -119,7 +119,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 
 def output_stem(args: argparse.Namespace) -> str:
-    stem = f"MMSB_{args.image_type.lower()}"
+    stem = f"MMSB_{args.image_type.lower()}_decoder[{args.layer}]"
     if args.tag:
         stem += f"_{args.tag}"
     return stem
@@ -178,7 +178,9 @@ def save_jsonl(path: Path, records: list[dict]) -> None:
 def run(args: argparse.Namespace) -> int:
     dataset_path = os.path.abspath(args.dataset_path)
     image_type = IMAGE_TYPE_BY_VALUE[args.image_type]
-    output_dir = Path(os.path.abspath(args.output_dir))
+    base_output_dir = Path(os.path.abspath(args.output_dir))
+    run_stamp = time.strftime("%Y%m%d-%H%M%S")
+    output_dir = base_output_dir / run_stamp
     output_dir.mkdir(parents=True, exist_ok=True)
 
     stem = output_stem(args)

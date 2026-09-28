@@ -1,10 +1,10 @@
 """读取 get-embedding 产物 <stem>.npz，打印结构、统计信息和若干条样本。
 
 用法：
-  python inspect_npz.py outputs/MMSB_sd_typo.npz
-  python inspect_npz.py outputs/MMSB_sd_typo.npz --show 5
-  python inspect_npz.py outputs/MMSB_sd_typo.npz --category 01-Illegal_Activity
-  python inspect_npz.py outputs/MMSB_sd_typo.npz --index 3 --index 17
+  python inspect_npz.py outputs/MMSB_sd_typo_decoder[-1].npz
+  python inspect_npz.py outputs/MMSB_sd_typo_decoder[-1].npz --show 5
+  python inspect_npz.py outputs/MMSB_sd_typo_decoder[-1].npz --category 01-Illegal_Activity
+  python inspect_npz.py outputs/MMSB_sd_typo_decoder[-1].npz --index 3 --index 17
 """
 from __future__ import annotations
 
@@ -32,7 +32,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         description="检查 build_embeddings.py 落盘的 npz 内容",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
-    parser.add_argument("--npz_path", help="<stem>.npz 路径", default="./outputs/MMSB_sd_typo.npz",)
+    parser.add_argument("--npz_path", help="<stem>.npz 路径", default="./outputs/MMSB_sd_typo_decoder[-1].npz",)
     parser.add_argument(
         "--show",
         type=int,

@@ -52,7 +52,7 @@ import torch.nn.functional as F
 from sklearn.metrics import f1_score, roc_auc_score
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_NPZ = REPO_ROOT / "get-embedding" / "outputs" / "MMSB_sd_typo.npz"
+DEFAULT_NPZ = REPO_ROOT / "get-embedding" / "outputs" / "MMSB_sd_typo_decoder[-1].npz"
 ALL_METHODS = ("ncm", "proto", "cac", "arpl")
 
 
