@@ -1,0 +1,1372 @@
+{
+  "generated_at": "2026-10-13 12:33:38",
+  "n_runs": 60,
+  "variants": [
+    "none",
+    "mean",
+    "abtt1"
+  ],
+  "layers": [
+    "24",
+    "32"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "methods": [
+    "cac",
+    "arpl"
+  ],
+  "provenance": [
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 42,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182135_b7_L24_s42_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 42,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182059_b7_L24_s42_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 43,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182226_b7_L24_s43_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 43,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182157_b7_L24_s43_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 44,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182324_b7_L24_s44_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 44,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182251_b7_L24_s44_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 45,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182417_b7_L24_s45_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 45,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182346_b7_L24_s45_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 46,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182509_b7_L24_s46_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "24",
+      "seed": 46,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24.npz",
+      "run_dir": "20261012-182440_b7_L24_s46_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 42,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182603_b7_L32_s42_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 42,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182532_b7_L32_s42_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 43,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182657_b7_L32_s43_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 43,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182627_b7_L32_s43_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 44,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182750_b7_L32_s44_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 44,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182718_b7_L32_s44_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 45,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182850_b7_L32_s45_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 45,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182816_b7_L32_s45_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 46,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182949_b7_L32_s46_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "none",
+      "layer": "32",
+      "seed": 46,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32.npz",
+      "run_dir": "20261012-182917_b7_L32_s46_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 42,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121203_b7_mean_L24_s42_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 42,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121130_b7_mean_L24_s42_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 43,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121252_b7_mean_L24_s43_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 43,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121229_b7_mean_L24_s43_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 44,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121347_b7_mean_L24_s44_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 44,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121314_b7_mean_L24_s44_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 45,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121439_b7_mean_L24_s45_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 45,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121413_b7_mean_L24_s45_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 46,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121530_b7_mean_L24_s46_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "24",
+      "seed": 46,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-mean.npz",
+      "run_dir": "20261013-121501_b7_mean_L24_s46_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 42,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121622_b7_mean_L32_s42_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 42,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121552_b7_mean_L32_s42_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 43,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121715_b7_mean_L32_s43_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 43,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121647_b7_mean_L32_s43_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 44,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121803_b7_mean_L32_s44_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 44,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121735_b7_mean_L32_s44_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 45,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121855_b7_mean_L32_s45_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 45,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121827_b7_mean_L32_s45_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 46,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121948_b7_mean_L32_s46_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "mean",
+      "layer": "32",
+      "seed": 46,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-mean.npz",
+      "run_dir": "20261013-121919_b7_mean_L32_s46_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 42,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122048_b7_abtt1_L24_s42_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 42,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122015_b7_abtt1_L24_s42_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 43,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122137_b7_abtt1_L24_s43_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 43,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122112_b7_abtt1_L24_s43_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 44,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122228_b7_abtt1_L24_s44_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 44,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122157_b7_abtt1_L24_s44_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 45,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122326_b7_abtt1_L24_s45_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 45,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122253_b7_abtt1_L24_s45_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 46,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122419_b7_abtt1_L24_s46_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "24",
+      "seed": 46,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer24_center-abtt1.npz",
+      "run_dir": "20261013-122350_b7_abtt1_L24_s46_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 42,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122505_b7_abtt1_L32_s42_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 42,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122439_b7_abtt1_L32_s42_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 43,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122556_b7_abtt1_L32_s43_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 43,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122527_b7_abtt1_L32_s43_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 44,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122647_b7_abtt1_L32_s44_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 44,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122616_b7_abtt1_L32_s44_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 45,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122735_b7_abtt1_L32_s45_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 45,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122708_b7_abtt1_L32_s45_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 46,
+      "method": "arpl",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122825_b7_abtt1_L32_s46_arpl",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    },
+    {
+      "variant": "abtt1",
+      "layer": "32",
+      "seed": 46,
+      "method": "cac",
+      "npz": "F:\\CODE-value_alignment\\openset\\merge-b7\\data\\MMSB_sd_typo_mergeB7_layer32_center-abtt1.npz",
+      "run_dir": "20261013-122757_b7_abtt1_L32_s46_cac",
+      "device": "cuda:0（NVIDIA GeForce RTX 3050 Laptop GPU）"
+    }
+  ],
+  "table_B_matched": {
+    "none": {
+      "L24_cac": {
+        "auroc": 0.8034950631459662,
+        "closed_set_acc": 0.9321397043653559,
+        "unknown_reject_rate": 0.2811769187605672,
+        "fpr_at_tpr95": 0.7341155489488653
+      },
+      "L24_arpl": {
+        "auroc": 0.7785219786915506,
+        "closed_set_acc": 0.898216503895809,
+        "unknown_reject_rate": 0.3452340530644057,
+        "fpr_at_tpr95": 0.697725850371737
+      },
+      "L32_cac": {
+        "auroc": 0.8198671737928281,
+        "closed_set_acc": 0.9430738883100661,
+        "unknown_reject_rate": 0.34375797451852635,
+        "fpr_at_tpr95": 0.6802311049763272
+      },
+      "L32_arpl": {
+        "auroc": 0.7916899963287743,
+        "closed_set_acc": 0.9223416652841282,
+        "unknown_reject_rate": 0.2952214817715073,
+        "fpr_at_tpr95": 0.6910375845468335
+      }
+    },
+    "mean": {
+      "L24_cac": {
+        "auroc": 0.8778534789599954,
+        "closed_set_acc": 0.8909619910323027,
+        "unknown_reject_rate": 0.4606088696292069,
+        "fpr_at_tpr95": 0.5640381418388571
+      },
+      "L24_arpl": {
+        "auroc": 0.34060714419197546,
+        "closed_set_acc": 0.8930017989958715,
+        "unknown_reject_rate": 0.028455694694223054,
+        "fpr_at_tpr95": 0.9692997560096182
+      },
+      "L32_cac": {
+        "auroc": 0.9062647397785174,
+        "closed_set_acc": 0.9223835275154642,
+        "unknown_reject_rate": 0.6150512839910898,
+        "fpr_at_tpr95": 0.4014669784198655
+      },
+      "L32_arpl": {
+        "auroc": 0.22208527201858635,
+        "closed_set_acc": 0.9164029526596721,
+        "unknown_reject_rate": 0.02575600755345262,
+        "fpr_at_tpr95": 0.9687934729439073
+      }
+    },
+    "abtt1": {
+      "L24_cac": {
+        "auroc": 0.9108509413357743,
+        "closed_set_acc": 0.8992952454687764,
+        "unknown_reject_rate": 0.640766734134542,
+        "fpr_at_tpr95": 0.35183772080982095
+      },
+      "L24_arpl": {
+        "auroc": 0.2335919732123438,
+        "closed_set_acc": 0.9112096664137542,
+        "unknown_reject_rate": 0.01894085139297199,
+        "fpr_at_tpr95": 0.9811376030544144
+      },
+      "L32_cac": {
+        "auroc": 0.9056465358244159,
+        "closed_set_acc": 0.9068795265598537,
+        "unknown_reject_rate": 0.6459707497634938,
+        "fpr_at_tpr95": 0.3897084871637759
+      },
+      "L32_arpl": {
+        "auroc": 0.2004748670141713,
+        "closed_set_acc": 0.9091195927447332,
+        "unknown_reject_rate": 0.021254799251733337,
+        "fpr_at_tpr95": 0.976803453175451
+      }
+    }
+  },
+  "comparison": {
+    "L24_cac_none": {
+      "auroc": 0.8034950631459662,
+      "closed_set_acc": 0.9321397043653559,
+      "unknown_reject_rate": 0.2811769187605672,
+      "fpr_at_tpr95": 0.7341155489488653
+    },
+    "L24_cac_mean": {
+      "auroc": 0.8778534789599954,
+      "closed_set_acc": 0.8909619910323027,
+      "unknown_reject_rate": 0.4606088696292069,
+      "fpr_at_tpr95": 0.5640381418388571
+    },
+    "L24_cac_abtt1": {
+      "auroc": 0.9108509413357743,
+      "closed_set_acc": 0.8992952454687764,
+      "unknown_reject_rate": 0.640766734134542,
+      "fpr_at_tpr95": 0.35183772080982095
+    },
+    "L24_arpl_none": {
+      "auroc": 0.7785219786915506,
+      "closed_set_acc": 0.898216503895809,
+      "unknown_reject_rate": 0.3452340530644057,
+      "fpr_at_tpr95": 0.697725850371737
+    },
+    "L24_arpl_mean": {
+      "auroc": 0.34060714419197546,
+      "closed_set_acc": 0.8930017989958715,
+      "unknown_reject_rate": 0.028455694694223054,
+      "fpr_at_tpr95": 0.9692997560096182
+    },
+    "L24_arpl_abtt1": {
+      "auroc": 0.2335919732123438,
+      "closed_set_acc": 0.9112096664137542,
+      "unknown_reject_rate": 0.01894085139297199,
+      "fpr_at_tpr95": 0.9811376030544144
+    },
+    "L32_cac_none": {
+      "auroc": 0.8198671737928281,
+      "closed_set_acc": 0.9430738883100661,
+      "unknown_reject_rate": 0.34375797451852635,
+      "fpr_at_tpr95": 0.6802311049763272
+    },
+    "L32_cac_mean": {
+      "auroc": 0.9062647397785174,
+      "closed_set_acc": 0.9223835275154642,
+      "unknown_reject_rate": 0.6150512839910898,
+      "fpr_at_tpr95": 0.4014669784198655
+    },
+    "L32_cac_abtt1": {
+      "auroc": 0.9056465358244159,
+      "closed_set_acc": 0.9068795265598537,
+      "unknown_reject_rate": 0.6459707497634938,
+      "fpr_at_tpr95": 0.3897084871637759
+    },
+    "L32_arpl_none": {
+      "auroc": 0.7916899963287743,
+      "closed_set_acc": 0.9223416652841282,
+      "unknown_reject_rate": 0.2952214817715073,
+      "fpr_at_tpr95": 0.6910375845468335
+    },
+    "L32_arpl_mean": {
+      "auroc": 0.22208527201858635,
+      "closed_set_acc": 0.9164029526596721,
+      "unknown_reject_rate": 0.02575600755345262,
+      "fpr_at_tpr95": 0.9687934729439073
+    },
+    "L32_arpl_abtt1": {
+      "auroc": 0.2004748670141713,
+      "closed_set_acc": 0.9091195927447332,
+      "unknown_reject_rate": 0.021254799251733337,
+      "fpr_at_tpr95": 0.976803453175451
+    }
+  },
+  "table_A_full": {
+    "none": {
+      "L24_cac": {
+        "auroc": 0.8012563430806166,
+        "closed_set_acc": 0.9321397043653559,
+        "unknown_reject_rate": 0.2818061703090261,
+        "fpr_at_tpr95": 0.7229165138122343
+      },
+      "L24_arpl": {
+        "auroc": 0.7785892726662307,
+        "closed_set_acc": 0.898216503895809,
+        "unknown_reject_rate": 0.32730013987395007,
+        "fpr_at_tpr95": 0.7222291150939154
+      },
+      "L32_cac": {
+        "auroc": 0.8145834860695587,
+        "closed_set_acc": 0.9430738883100661,
+        "unknown_reject_rate": 0.3222377879358356,
+        "fpr_at_tpr95": 0.6906043527359915
+      },
+      "L32_arpl": {
+        "auroc": 0.786241645150731,
+        "closed_set_acc": 0.9223416652841282,
+        "unknown_reject_rate": 0.2703186090337171,
+        "fpr_at_tpr95": 0.7093312276091407
+      }
+    },
+    "mean": {
+      "L24_cac": {
+        "auroc": 0.8792493520238779,
+        "closed_set_acc": 0.8909619910323027,
+        "unknown_reject_rate": 0.4526949672685495,
+        "fpr_at_tpr95": 0.5624912643814317
+      },
+      "L24_arpl": {
+        "auroc": 0.3164681207950171,
+        "closed_set_acc": 0.8930017989958715,
+        "unknown_reject_rate": 0.027619126904406145,
+        "fpr_at_tpr95": 0.9688691685234717
+      },
+      "L32_cac": {
+        "auroc": 0.9072250815321077,
+        "closed_set_acc": 0.9223835275154642,
+        "unknown_reject_rate": 0.6161711167054833,
+        "fpr_at_tpr95": 0.3862459281882525
+      },
+      "L32_arpl": {
+        "auroc": 0.21468266293037655,
+        "closed_set_acc": 0.9164029526596721,
+        "unknown_reject_rate": 0.024230463029673528,
+        "fpr_at_tpr95": 0.9729497287259468
+      }
+    },
+    "abtt1": {
+      "L24_cac": {
+        "auroc": 0.912191174737084,
+        "closed_set_acc": 0.8992952454687764,
+        "unknown_reject_rate": 0.6422332037120935,
+        "fpr_at_tpr95": 0.3455166094340333
+      },
+      "L24_arpl": {
+        "auroc": 0.2214410651191736,
+        "closed_set_acc": 0.9112096664137542,
+        "unknown_reject_rate": 0.019966604594377334,
+        "fpr_at_tpr95": 0.9791475962109203
+      },
+      "L32_cac": {
+        "auroc": 0.903357044930084,
+        "closed_set_acc": 0.9068795265598537,
+        "unknown_reject_rate": 0.6607945188746011,
+        "fpr_at_tpr95": 0.37891254072863345
+      },
+      "L32_arpl": {
+        "auroc": 0.1945941824797393,
+        "closed_set_acc": 0.9091195927447332,
+        "unknown_reject_rate": 0.016066078239027292,
+        "fpr_at_tpr95": 0.9738742007200116
+      }
+    }
+  },
+  "attribution": {
+    "none": {
+      "L24_cac": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.31000752445447705,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.4213694507148232,
+            "M3-Illegal-PhysicalHarm": 0.11060948081264106,
+            "M2-Legal-Opinion": 0.0782543265613243
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.19917012448132781,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.5435684647302905,
+            "M1-Economic-Financial-Fraud": 0.13070539419087138,
+            "M4-Malware-PrivacyViolence": 0.08298755186721991
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.22586520947176683,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.3515482695810565,
+            "M3-Illegal-PhysicalHarm": 0.23679417122040072,
+            "M5-HateSpeech-Political": 0.17850637522768673
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.35913978494623655,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.3720430107526882,
+            "M3-Illegal-PhysicalHarm": 0.25161290322580643,
+            "M2-Legal-Opinion": 0.010752688172043012
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.3761467889908257,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.44954128440366975,
+            "M3-Illegal-PhysicalHarm": 0.1651376146788991,
+            "M4-Malware-PrivacyViolence": 0.009174311926605505
+          }
+        }
+      },
+      "L24_arpl": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.36267870579382994,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.21896162528216703,
+            "M3-Illegal-PhysicalHarm": 0.1437170805116629,
+            "M2-Legal-Opinion": 0.13920240782543267
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.3838174273858921,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.33402489626556015,
+            "M1-Economic-Financial-Fraud": 0.11825726141078838,
+            "M4-Malware-PrivacyViolence": 0.11618257261410789
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.25500910746812383,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.2987249544626594,
+            "M1-Economic-Financial-Fraud": 0.2987249544626594,
+            "M5-HateSpeech-Political": 0.12021857923497269
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.26881720430107525,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.32903225806451614,
+            "M3-Illegal-PhysicalHarm": 0.26021505376344084,
+            "M2-Legal-Opinion": 0.12258064516129032
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.25688073394495414,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.3486238532110092,
+            "M5-HateSpeech-Political": 0.23853211009174313,
+            "M4-Malware-PrivacyViolence": 0.12844036697247707
+          }
+        }
+      },
+      "L32_cac": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.41459744168547785,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.3145221971407073,
+            "M3-Illegal-PhysicalHarm": 0.13544018058690743,
+            "M2-Legal-Opinion": 0.07223476297968397
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.25103734439834025,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.520746887966805,
+            "M1-Economic-Financial-Fraud": 0.12240663900414937,
+            "M4-Malware-PrivacyViolence": 0.07261410788381743
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.23679417122040072,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.3242258652094718,
+            "M3-Illegal-PhysicalHarm": 0.2768670309653916,
+            "M5-HateSpeech-Political": 0.151183970856102
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.26881720430107525,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.35698924731182796,
+            "M3-Illegal-PhysicalHarm": 0.3311827956989247,
+            "M2-Legal-Opinion": 0.030107526881720432
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.47706422018348627,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.29357798165137616,
+            "M3-Illegal-PhysicalHarm": 0.1926605504587156,
+            "M4-Malware-PrivacyViolence": 0.01834862385321101
+          }
+        }
+      },
+      "L32_arpl": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.34462001504890893,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.2287434161023326,
+            "M3-Illegal-PhysicalHarm": 0.19939804364183597,
+            "M2-Legal-Opinion": 0.1361926260346125
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.24066390041493774,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.4315352697095436,
+            "M1-Economic-Financial-Fraud": 0.15560165975103735,
+            "M4-Malware-PrivacyViolence": 0.11203319502074689
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.24225865209471764,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.32604735883424407,
+            "M3-Illegal-PhysicalHarm": 0.24043715846994532,
+            "M5-HateSpeech-Political": 0.17486338797814208
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.23010752688172043,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.44731182795698926,
+            "M3-Illegal-PhysicalHarm": 0.24301075268817204,
+            "M2-Legal-Opinion": 0.07741935483870968
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.14678899082568808,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.4954128440366973,
+            "M5-HateSpeech-Political": 0.27522935779816515,
+            "M4-Malware-PrivacyViolence": 0.05504587155963303
+          }
+        }
+      }
+    },
+    "mean": {
+      "L24_cac": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.6847253574115877,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.13243039879608728,
+            "M4-Malware-PrivacyViolence": 0.08502633559066967,
+            "M3-Illegal-PhysicalHarm": 0.05718585402558315
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.3029045643153527,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.2095435684647303,
+            "M6-Sex": 0.1825726141078838,
+            "M7-Health": 0.0975103734439834
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.2659380692167577,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.2058287795992714,
+            "M1-Economic-Financial-Fraud": 0.18214936247723132,
+            "M6-Sex": 0.11839708561020036
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.2021505376344086,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.32688172043010755,
+            "M2-Legal-Opinion": 0.16559139784946236,
+            "M1-Economic-Financial-Fraud": 0.15268817204301074
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.908256880733945,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.07339449541284404,
+            "M3-Illegal-PhysicalHarm": 0.009174311926605505,
+            "M4-Malware-PrivacyViolence": 0.009174311926605505
+          }
+        }
+      },
+      "L24_arpl": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.022573363431151242,
+          "sinks": {
+            "M2-Legal-Opinion": 0.3190368698269376,
+            "M5-HateSpeech-Political": 0.19187358916478556,
+            "M3-Illegal-PhysicalHarm": 0.16027088036117382
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.03319502074688797,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.3091286307053942,
+            "M4-Malware-PrivacyViolence": 0.17012448132780084,
+            "M2-Legal-Opinion": 0.14730290456431536
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.054644808743169404,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.2896174863387978,
+            "M1-Economic-Financial-Fraud": 0.2586520947176685,
+            "M5-HateSpeech-Political": 0.14389799635701275
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.017204301075268817,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.3118279569892473,
+            "M1-Economic-Financial-Fraud": 0.3096774193548387,
+            "M2-Legal-Opinion": 0.23870967741935484
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.0,
+          "sinks": {
+            "M7-Health": 0.44036697247706424,
+            "M4-Malware-PrivacyViolence": 0.28440366972477066,
+            "M3-Illegal-PhysicalHarm": 0.11926605504587157
+          }
+        }
+      },
+      "L32_cac": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.6681715575620767,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.12415349887133183,
+            "M4-Malware-PrivacyViolence": 0.08803611738148985,
+            "M3-Illegal-PhysicalHarm": 0.0692249811888638
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.553941908713693,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.1887966804979253,
+            "M4-Malware-PrivacyViolence": 0.0912863070539419,
+            "M7-Health": 0.06431535269709543
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.4754098360655738,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.24590163934426226,
+            "M1-Economic-Financial-Fraud": 0.09289617486338798,
+            "M5-HateSpeech-Political": 0.08925318761384336
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.5763440860215053,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.16344086021505377,
+            "M2-Legal-Opinion": 0.0967741935483871,
+            "M1-Economic-Financial-Fraud": 0.08602150537634409
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.963302752293578,
+          "sinks": {
+            "M4-Malware-PrivacyViolence": 0.01834862385321101,
+            "M2-Legal-Opinion": 0.009174311926605505,
+            "M5-HateSpeech-Political": 0.009174311926605505
+          }
+        }
+      },
+      "L32_arpl": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.023325808878856283,
+          "sinks": {
+            "M2-Legal-Opinion": 0.35063957863054923,
+            "M5-HateSpeech-Political": 0.17306245297215953,
+            "M3-Illegal-PhysicalHarm": 0.1655379984951091
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.022821576763485476,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.32365145228215764,
+            "M2-Legal-Opinion": 0.26141078838174275,
+            "M4-Malware-PrivacyViolence": 0.13900414937759337
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.04189435336976321,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.24225865209471767,
+            "M1-Economic-Financial-Fraud": 0.22040072859744989,
+            "M2-Legal-Opinion": 0.20947176684881605
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.012903225806451613,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.27741935483870966,
+            "M2-Legal-Opinion": 0.25806451612903225,
+            "M1-Economic-Financial-Fraud": 0.24731182795698925
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.009174311926605505,
+          "sinks": {
+            "M7-Health": 0.4954128440366973,
+            "M4-Malware-PrivacyViolence": 0.1743119266055046,
+            "M3-Illegal-PhysicalHarm": 0.13761467889908258
+          }
+        }
+      }
+    },
+    "abtt1": {
+      "L24_cac": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.7050413844996237,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.10759969902182091,
+            "M4-Malware-PrivacyViolence": 0.08201655379984951,
+            "M3-Illegal-PhysicalHarm": 0.06621519939804364
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.4585062240663901,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.2053941908713693,
+            "M4-Malware-PrivacyViolence": 0.11410788381742738,
+            "M2-Legal-Opinion": 0.060165975103734434
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.5336976320582878,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.16757741347905283,
+            "M1-Economic-Financial-Fraud": 0.0965391621129326,
+            "M5-HateSpeech-Political": 0.08925318761384336
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.7419354838709677,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.08602150537634409,
+            "M2-Legal-Opinion": 0.07311827956989247,
+            "M1-Economic-Financial-Fraud": 0.06881720430107527
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.8899082568807339,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.06422018348623854,
+            "M7-Health": 0.03669724770642202,
+            "M3-Illegal-PhysicalHarm": 0.009174311926605505
+          }
+        }
+      },
+      "L24_arpl": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.01655379984951091,
+          "sinks": {
+            "M2-Legal-Opinion": 0.42061700526711815,
+            "M3-Illegal-PhysicalHarm": 0.17531978931527467,
+            "M5-HateSpeech-Political": 0.17531978931527467
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.058091286307053944,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.4107883817427386,
+            "M2-Legal-Opinion": 0.17634854771784234,
+            "M1-Economic-Financial-Fraud": 0.11618257261410789
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.012750455373406194,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.30418943533697634,
+            "M1-Economic-Financial-Fraud": 0.24590163934426232,
+            "M5-HateSpeech-Political": 0.14207650273224046
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.0064516129032258064,
+          "sinks": {
+            "M2-Legal-Opinion": 0.2860215053763441,
+            "M3-Illegal-PhysicalHarm": 0.25806451612903225,
+            "M6-Sex": 0.20430107526881722
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.0,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.3211009174311927,
+            "M7-Health": 0.27522935779816515,
+            "M4-Malware-PrivacyViolence": 0.25688073394495414
+          }
+        }
+      },
+      "L32_cac": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.6877351392024078,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.0948081264108352,
+            "M4-Malware-PrivacyViolence": 0.08201655379984951,
+            "M3-Illegal-PhysicalHarm": 0.0782543265613243
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.4543568464730291,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.23236514522821577,
+            "M4-Malware-PrivacyViolence": 0.11618257261410789,
+            "M7-Health": 0.06639004149377593
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.5573770491803278,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.18579234972677594,
+            "M5-HateSpeech-Political": 0.10382513661202186,
+            "M1-Economic-Financial-Fraud": 0.07468123861566485
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.875268817204301,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.04946236559139785,
+            "M3-Illegal-PhysicalHarm": 0.04516129032258064,
+            "M6-Sex": 0.015053763440860216
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.8807339449541285,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.045871559633027525,
+            "M4-Malware-PrivacyViolence": 0.03669724770642202,
+            "M7-Health": 0.027522935779816515
+          }
+        }
+      },
+      "L32_arpl": {
+        "M1-Economic-Financial-Fraud": {
+          "n_drawn": 3,
+          "reject_rate": 0.009029345372460496,
+          "sinks": {
+            "M2-Legal-Opinion": 0.4093303235515425,
+            "M3-Illegal-PhysicalHarm": 0.19864559819413094,
+            "M5-HateSpeech-Political": 0.17005267118133935
+          }
+        },
+        "M3-Illegal-PhysicalHarm": {
+          "n_drawn": 2,
+          "reject_rate": 0.024896265560165973,
+          "sinks": {
+            "M5-HateSpeech-Political": 0.34647302904564314,
+            "M2-Legal-Opinion": 0.2800829875518672,
+            "M1-Economic-Financial-Fraud": 0.12863070539419086
+          }
+        },
+        "M4-Malware-PrivacyViolence": {
+          "n_drawn": 3,
+          "reject_rate": 0.029143897996357013,
+          "sinks": {
+            "M1-Economic-Financial-Fraud": 0.33515482695810567,
+            "M3-Illegal-PhysicalHarm": 0.331511839708561,
+            "M5-HateSpeech-Political": 0.1366120218579235
+          }
+        },
+        "M5-HateSpeech-Political": {
+          "n_drawn": 1,
+          "reject_rate": 0.017204301075268817,
+          "sinks": {
+            "M3-Illegal-PhysicalHarm": 0.44946236559139785,
+            "M1-Economic-Financial-Fraud": 0.37849462365591396,
+            "M2-Legal-Opinion": 0.1032258064516129
+          }
+        },
+        "M6-Sex": {
+          "n_drawn": 1,
+          "reject_rate": 0.0,
+          "sinks": {
+            "M2-Legal-Opinion": 0.3119266055045872,
+            "M5-HateSpeech-Political": 0.24770642201834864,
+            "M7-Health": 0.22018348623853212
+          }
+        }
+      }
+    }
+  }
+}

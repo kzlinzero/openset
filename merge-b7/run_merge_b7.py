@@ -35,17 +35,24 @@ DRIVER_LOG_DIR = OUT_DIR / "_driver_logs"
 DEFAULT_LAYERS = (24, 32)
 DEFAULT_SEEDS = (42, 43, 44, 45, 46)
 DEFAULT_METHODS = ("cac", "arpl")
+# none = 原始合并特征（基线，复用已有产物）；mean / abtt{k} = 去均值 / all-but-the-top 变体
+DEFAULT_VARIANTS = ("none", "mean", "abtt1")
 
 
-def npz_for(layer: str) -> Path:
-    p = DATA_DIR / f"MMSB_sd_typo_mergeB7_layer{layer}.npz"
+def npz_for(layer: str, variant: str = "none") -> Path:
+    if variant == "none":
+        p = DATA_DIR / f"MMSB_sd_typo_mergeB7_layer{layer}.npz"
+    else:
+        p = DATA_DIR / f"MMSB_sd_typo_mergeB7_layer{layer}_center-{variant}.npz"
     if not p.exists():
-        raise SystemExit(f"[错] 找不到合并特征 {p}，先跑 merge_taxonomy.py")
+        raise SystemExit(
+            f"[错] 找不到特征 {p}；基线先跑 merge_taxonomy.py，变体先跑 center_features.py")
     return p
 
 
-def run_name(layer: str, seed: int, method: str) -> str:
-    return f"b7_L{layer}_s{seed}_{method}"
+def run_name(layer: str, seed: int, method: str, variant: str = "none") -> str:
+    tok = "" if variant == "none" else f"{variant}_"
+    return f"b7_{tok}L{layer}_s{seed}_{method}"
 
 
 def existing_run_dir(name: str) -> Path | None:
@@ -76,6 +83,8 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
                    help="逗号分隔的 seed，如 42,43,44,45,46")
     p.add_argument("--methods", default=",".join(DEFAULT_METHODS),
                    help="逗号分隔的方法，如 cac,arpl")
+    p.add_argument("--variants", default=",".join(DEFAULT_VARIANTS),
+                   help="逗号分隔的预处理变体：none（原始）/ mean（去均值）/ abtt{k}（去均值+ABTT）")
     p.add_argument("--device", default="gpu0", help="传给 proto_openset.py 的 --device")
     p.add_argument("--python", default=sys.executable, help="用哪个解释器跑 proto_openset.py")
     p.add_argument("--dry-run", action="store_true", help="只打印命令，不真的跑")
@@ -88,20 +97,22 @@ def main(argv: list[str] | None = None) -> int:
     layers = [s.strip() for s in args.layers.split(",") if s.strip()]
     seeds = [int(s) for s in args.seeds.split(",") if s.strip()]
     methods = [s.strip() for s in args.methods.split(",") if s.strip()]
+    variants = [s.strip() for s in args.variants.split(",") if s.strip()]
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     DRIVER_LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-    jobs = [(L, S, M) for L in layers for S in seeds for M in methods]
-    print(f"[计划] {len(layers)} 层 × {len(seeds)} seed × {len(methods)} 方法 = {len(jobs)} 次运行")
+    jobs = [(V, L, S, M) for V in variants for L in layers for S in seeds for M in methods]
+    print(f"[计划] {len(variants)} 变体 × {len(layers)} 层 × {len(seeds)} seed × {len(methods)} 方法 "
+          f"= {len(jobs)} 次运行")
     print(f"[解释器] {args.python}")
     print(f"[脚本] {PROTO}")
     print(f"[设备] {args.device}\n")
 
     n_done = n_skip = n_fail = 0
-    for i, (L, S, M) in enumerate(jobs, 1):
-        name = run_name(L, S, M)
-        npz = npz_for(L)
+    for i, (V, L, S, M) in enumerate(jobs, 1):
+        name = run_name(L, S, M, V)
+        npz = npz_for(L, V)
         existing = existing_run_dir(name)
         if existing is not None and not args.force:
             print(f"[{i:2d}/{len(jobs)}] 跳过（已存在 {existing.name}）")
@@ -116,7 +127,7 @@ def main(argv: list[str] | None = None) -> int:
                "--device", args.device,
                "--output-dir", str(OUT_DIR),
                "--run-name", name]
-        print(f"[{i:2d}/{len(jobs)}] {name}")
+        print(f"[{i:2d}/{len(jobs)}] {name}  [{V}]")
         if args.dry_run:
             print("    " + " ".join(cmd))
             continue
