@@ -1,0 +1,1086 @@
+{
+  "generated_at": "2026-10-20 12:41:33",
+  "n_runs": {
+    "new": 50,
+    "old_cac": 10,
+    "total": 60
+  },
+  "methods": [
+    "cac",
+    "proto",
+    "k1",
+    "k2",
+    "k3",
+    "k4"
+  ],
+  "layers": [
+    "24",
+    "32"
+  ],
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "metrics": {
+    "24": {
+      "cac": {
+        "auroc": {
+          "mean": 0.9108509413357743,
+          "std": 0.014666614153710832,
+          "values": [
+            0.9285934133579563,
+            0.8907254361799817,
+            0.916863040814403,
+            0.916032,
+            0.9020408163265305
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8992952454687764,
+          "std": 0.026622654321147878,
+          "values": [
+            0.9035087719298246,
+            0.9292929292929293,
+            0.9029126213592233,
+            0.856,
+            0.9047619047619048
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.640766734134542,
+          "std": 0.08252780030028105,
+          "values": [
+            0.6754385964912281,
+            0.6363636363636364,
+            0.6116504854368932,
+            0.528,
+            0.7523809523809524
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.35183772080982095,
+          "std": 0.06492803378419659,
+          "values": [
+            0.2631578947368421,
+            0.3838383838383838,
+            0.3300970873786408,
+            0.344,
+            0.4380952380952381
+          ]
+        }
+      },
+      "proto": {
+        "auroc": {
+          "mean": 0.7779173777115194,
+          "std": 0.03484004114671131,
+          "values": [
+            0.7677746999076639,
+            0.7916539128660341,
+            0.8285418041285701,
+            0.767104,
+            0.7345124716553287
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8708268783167096,
+          "std": 0.035793027946046455,
+          "values": [
+            0.8596491228070176,
+            0.9090909090909091,
+            0.8932038834951457,
+            0.816,
+            0.8761904761904762
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.24331388459380285,
+          "std": 0.07851231305940669,
+          "values": [
+            0.14912280701754385,
+            0.31313131313131315,
+            0.2815533980582524,
+            0.168,
+            0.3047619047619048
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.7958491427155708,
+          "std": 0.06975571405202394,
+          "values": [
+            0.7543859649122807,
+            0.9090909090909091,
+            0.7378640776699029,
+            0.816,
+            0.7619047619047619
+          ]
+        }
+      },
+      "k1": {
+        "auroc": {
+          "mean": 0.7779173777115194,
+          "std": 0.03484004114671131,
+          "values": [
+            0.7677746999076639,
+            0.7916539128660341,
+            0.8285418041285701,
+            0.767104,
+            0.7345124716553287
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8708268783167096,
+          "std": 0.035793027946046455,
+          "values": [
+            0.8596491228070176,
+            0.9090909090909091,
+            0.8932038834951457,
+            0.816,
+            0.8761904761904762
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.24331388459380285,
+          "std": 0.07851231305940669,
+          "values": [
+            0.14912280701754385,
+            0.31313131313131315,
+            0.2815533980582524,
+            0.168,
+            0.3047619047619048
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.7958491427155708,
+          "std": 0.06975571405202394,
+          "values": [
+            0.7543859649122807,
+            0.9090909090909091,
+            0.7378640776699029,
+            0.816,
+            0.7619047619047619
+          ]
+        }
+      },
+      "k2": {
+        "auroc": {
+          "mean": 0.7734477894156988,
+          "std": 0.02476547792623315,
+          "values": [
+            0.7780855647891659,
+            0.7777777777777778,
+            0.7801866339900084,
+            0.7320960000000001,
+            0.7990929705215419
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8838576688853644,
+          "std": 0.02180476899665306,
+          "values": [
+            0.8596491228070176,
+            0.9090909090909091,
+            0.8737864077669902,
+            0.872,
+            0.9047619047619048
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.33987083979439625,
+          "std": 0.1458827183331727,
+          "values": [
+            0.2631578947368421,
+            0.5959595959595959,
+            0.2524271844660194,
+            0.264,
+            0.3238095238095238
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.7475080475534231,
+          "std": 0.0792744736925222,
+          "values": [
+            0.7368421052631579,
+            0.6262626262626263,
+            0.7378640776699029,
+            0.808,
+            0.8285714285714286
+          ]
+        }
+      },
+      "k3": {
+        "auroc": {
+          "mean": 0.7920819642054039,
+          "std": 0.02705190753794885,
+          "values": [
+            0.804016620498615,
+            0.7970615243342516,
+            0.7588839664435856,
+            0.8278399999999999,
+            0.7726077097505669
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.9039343265489407,
+          "std": 0.01619373765537073,
+          "values": [
+            0.8859649122807017,
+            0.9090909090909091,
+            0.9223300970873787,
+            0.888,
+            0.9142857142857143
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.332426011188607,
+          "std": 0.05666820630759315,
+          "values": [
+            0.30701754385964913,
+            0.42424242424242425,
+            0.3106796116504854,
+            0.344,
+            0.2761904761904762
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.6806366714078518,
+          "std": 0.1386765874952167,
+          "values": [
+            0.6491228070175439,
+            0.6868686868686869,
+            0.7475728155339806,
+            0.472,
+            0.8476190476190476
+          ]
+        }
+      },
+      "k4": {
+        "auroc": {
+          "mean": 0.7900784539351328,
+          "std": 0.023773714745460268,
+          "values": [
+            0.8133271775931055,
+            0.7529843893480257,
+            0.7810349703082289,
+            0.802048,
+            0.8009977324263039
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8955942353677664,
+          "std": 0.011622939139302246,
+          "values": [
+            0.9035087719298246,
+            0.8787878787878788,
+            0.9029126213592233,
+            0.888,
+            0.9047619047619048
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.3232150632538982,
+          "std": 0.057848562048470206,
+          "values": [
+            0.3333333333333333,
+            0.3939393939393939,
+            0.2621359223300971,
+            0.36,
+            0.26666666666666666
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.685242044800144,
+          "std": 0.06482589440479669,
+          "values": [
+            0.6754385964912281,
+            0.6464646464646465,
+            0.7961165048543689,
+            0.632,
+            0.6761904761904762
+          ]
+        }
+      }
+    },
+    "32": {
+      "cac": {
+        "auroc": {
+          "mean": 0.9056465358244159,
+          "std": 0.019277405677215923,
+          "values": [
+            0.9309018159433671,
+            0.8954188348127742,
+            0.9191252709963238,
+            0.8825599999999999,
+            0.9002267573696145
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.9068795265598537,
+          "std": 0.021816241658293354,
+          "values": [
+            0.9035087719298246,
+            0.9292929292929293,
+            0.8737864077669902,
+            0.904,
+            0.9238095238095239
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.6459707497634938,
+          "std": 0.06655980121058325,
+          "values": [
+            0.6929824561403509,
+            0.5959595959595959,
+            0.7378640776699029,
+            0.584,
+            0.6190476190476191
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.3897084871637759,
+          "std": 0.0856283012753364,
+          "values": [
+            0.2807017543859649,
+            0.40404040404040403,
+            0.34951456310679613,
+            0.4,
+            0.5142857142857142
+          ]
+        }
+      },
+      "proto": {
+        "auroc": {
+          "mean": 0.8048283921783816,
+          "std": 0.028918542480582166,
+          "values": [
+            0.8144044321329639,
+            0.8001224364860728,
+            0.8489961353567725,
+            0.7865599999999999,
+            0.7740589569160997
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8835963359413539,
+          "std": 0.03220194522487707,
+          "values": [
+            0.868421052631579,
+            0.9090909090909091,
+            0.8446601941747572,
+            0.872,
+            0.9238095238095239
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.25911298988866693,
+          "std": 0.03387910246465868,
+          "values": [
+            0.2807017543859649,
+            0.2727272727272727,
+            0.2621359223300971,
+            0.28,
+            0.2
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.7765805281075593,
+          "std": 0.06939207589284273,
+          "values": [
+            0.6754385964912281,
+            0.8484848484848485,
+            0.7864077669902912,
+            0.744,
+            0.8285714285714286
+          ]
+        }
+      },
+      "k1": {
+        "auroc": {
+          "mean": 0.8048283921783816,
+          "std": 0.028918542480582166,
+          "values": [
+            0.8144044321329639,
+            0.8001224364860728,
+            0.8489961353567725,
+            0.7865599999999999,
+            0.7740589569160997
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8835963359413539,
+          "std": 0.03220194522487707,
+          "values": [
+            0.868421052631579,
+            0.9090909090909091,
+            0.8446601941747572,
+            0.872,
+            0.9238095238095239
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.25911298988866693,
+          "std": 0.03387910246465868,
+          "values": [
+            0.2807017543859649,
+            0.2727272727272727,
+            0.2621359223300971,
+            0.28,
+            0.2
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.7765805281075593,
+          "std": 0.06939207589284273,
+          "values": [
+            0.6754385964912281,
+            0.8484848484848485,
+            0.7864077669902912,
+            0.744,
+            0.8285714285714286
+          ]
+        }
+      },
+      "k2": {
+        "auroc": {
+          "mean": 0.7904874360062845,
+          "std": 0.015017974880581863,
+          "values": [
+            0.7997076023391813,
+            0.7953270074482196,
+            0.8061080214911868,
+            0.7682559999999999,
+            0.7830385487528345
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8877377167543749,
+          "std": 0.04123752024631549,
+          "values": [
+            0.8245614035087719,
+            0.9393939393939394,
+            0.883495145631068,
+            0.896,
+            0.8952380952380953
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.36383186209123874,
+          "std": 0.07874105426807769,
+          "values": [
+            0.32456140350877194,
+            0.48484848484848486,
+            0.27184466019417475,
+            0.376,
+            0.3619047619047619
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.6746218379134067,
+          "std": 0.054864297424980626,
+          "values": [
+            0.6491228070175439,
+            0.6363636363636364,
+            0.6601941747572816,
+            0.656,
+            0.7714285714285715
+          ]
+        }
+      },
+      "k3": {
+        "auroc": {
+          "mean": 0.827032193716461,
+          "std": 0.02750025475705634,
+          "values": [
+            0.8666512773160973,
+            0.8407305377002346,
+            0.814214346309737,
+            0.79488,
+            0.8186848072562358
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8870926047097738,
+          "std": 0.02729062132508848,
+          "values": [
+            0.8508771929824561,
+            0.898989898989899,
+            0.8737864077669902,
+            0.888,
+            0.9238095238095239
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.36363939799483996,
+          "std": 0.11257469624125398,
+          "values": [
+            0.43859649122807015,
+            0.41414141414141414,
+            0.44660194174757284,
+            0.176,
+            0.34285714285714286
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.615227568774835,
+          "std": 0.12444349944935908,
+          "values": [
+            0.5175438596491229,
+            0.47474747474747475,
+            0.6019417475728155,
+            0.72,
+            0.7619047619047619
+          ]
+        }
+      },
+      "k4": {
+        "auroc": {
+          "mean": 0.8036318269907545,
+          "std": 0.020012038289374055,
+          "values": [
+            0.8212526931363496,
+            0.7925721865115805,
+            0.8078989537185409,
+            0.774848,
+            0.8215873015873016
+          ]
+        },
+        "closed_set_acc": {
+          "mean": 0.8920469906746862,
+          "std": 0.025411649146827843,
+          "values": [
+            0.8596491228070176,
+            0.898989898989899,
+            0.8737864077669902,
+            0.904,
+            0.9238095238095239
+          ]
+        },
+        "unknown_reject_rate": {
+          "mean": 0.33960921013920503,
+          "std": 0.08052126322069467,
+          "values": [
+            0.22807017543859648,
+            0.45454545454545453,
+            0.3300970873786408,
+            0.352,
+            0.3333333333333333
+          ]
+        },
+        "fpr_at_tpr95": {
+          "mean": 0.6107502253721977,
+          "std": 0.09486144327308853,
+          "values": [
+            0.4649122807017544,
+            0.7171717171717171,
+            0.5825242718446602,
+            0.632,
+            0.6571428571428571
+          ]
+        }
+      }
+    }
+  },
+  "consistency": {
+    "max_abs_diff": 0.0,
+    "rows": [
+      {
+        "layer": "24",
+        "seed": 42,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "24",
+        "seed": 43,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "24",
+        "seed": 44,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "24",
+        "seed": 45,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "24",
+        "seed": 46,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "32",
+        "seed": 42,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "32",
+        "seed": 43,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "32",
+        "seed": 44,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "32",
+        "seed": 45,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      },
+      {
+        "layer": "32",
+        "seed": 46,
+        "auroc": 0.0,
+        "closed_set_acc": 0.0,
+        "unknown_reject_rate": 0.0,
+        "fpr_at_tpr95": 0.0,
+        "max_abs": 0.0
+      }
+    ]
+  },
+  "diagnostics": {
+    "24": {
+      "k1": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "entropy_norm_mean": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "pairwise_cos_mean": null
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "entropy_norm_mean": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "pairwise_cos_mean": null
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "entropy_norm_mean": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "pairwise_cos_mean": null
+        }
+      },
+      "k2": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 1.8800000000000001,
+            "std": 0.17888543819998315
+          },
+          "entropy_norm_mean": {
+            "mean": 0.25299097939231846,
+            "std": 0.10442969368310931
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.08520101740956307,
+            "std": 0.018168581613307276
+          }
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 1.6800000000000002,
+            "std": 0.1788854381999832
+          },
+          "entropy_norm_mean": {
+            "mean": 0.34272505676927806,
+            "std": 0.10319626757792268
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.08520101740956307,
+            "std": 0.018168581613307276
+          }
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 1.7599999999999998,
+            "std": 0.16733200530681508
+          },
+          "entropy_norm_mean": {
+            "mean": 0.3472209506500933,
+            "std": 0.11472530037897594
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.08520101740956307,
+            "std": 0.018168581613307276
+          }
+        }
+      },
+      "k3": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 2.52,
+            "std": 0.17888543819998315
+          },
+          "entropy_norm_mean": {
+            "mean": 0.2483508621760647,
+            "std": 0.07876455829695546
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.16451886631548404,
+            "std": 0.09871108962449106
+          }
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 2.16,
+            "std": 0.26076809620810587
+          },
+          "entropy_norm_mean": {
+            "mean": 0.34302004990526164,
+            "std": 0.0708378972933183
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.16451886631548404,
+            "std": 0.09871108962449106
+          }
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 2.2399999999999998,
+            "std": 0.21908902300206645
+          },
+          "entropy_norm_mean": {
+            "mean": 0.36030672982064876,
+            "std": 0.0732878667272076
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.16451886631548404,
+            "std": 0.09871108962449106
+          }
+        }
+      },
+      "k4": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 3.28,
+            "std": 0.30331501776206193
+          },
+          "entropy_norm_mean": {
+            "mean": 0.24942664144253954,
+            "std": 0.07812478085032323
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.11062513940036296,
+            "std": 0.030774202184884705
+          }
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 2.5200000000000005,
+            "std": 0.303315017762062
+          },
+          "entropy_norm_mean": {
+            "mean": 0.33524386743811585,
+            "std": 0.0487637872049744
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.11062513940036296,
+            "std": 0.030774202184884705
+          }
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 2.5999999999999996,
+            "std": 0.19999999999999996
+          },
+          "entropy_norm_mean": {
+            "mean": 0.3469103853726034,
+            "std": 0.06453868311346282
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.11062513940036296,
+            "std": 0.030774202184884705
+          }
+        }
+      }
+    },
+    "32": {
+      "k1": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "entropy_norm_mean": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "pairwise_cos_mean": null
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "entropy_norm_mean": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "pairwise_cos_mean": null
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 1.0,
+            "std": 0.0
+          },
+          "entropy_norm_mean": {
+            "mean": 0.0,
+            "std": 0.0
+          },
+          "pairwise_cos_mean": null
+        }
+      },
+      "k2": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 1.8800000000000001,
+            "std": 0.1095445115010332
+          },
+          "entropy_norm_mean": {
+            "mean": 0.3052395052718323,
+            "std": 0.08316511540305617
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.07260705647990107,
+            "std": 0.053680465242962855
+          }
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 1.6800000000000002,
+            "std": 0.1788854381999832
+          },
+          "entropy_norm_mean": {
+            "mean": 0.3764289097496378,
+            "std": 0.07830097026528435
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.07260705647990107,
+            "std": 0.053680465242962855
+          }
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 1.6800000000000002,
+            "std": 0.1788854381999832
+          },
+          "entropy_norm_mean": {
+            "mean": 0.3785748355543833,
+            "std": 0.05861589509159446
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.07260705647990107,
+            "std": 0.053680465242962855
+          }
+        }
+      },
+      "k3": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 2.68,
+            "std": 0.22803508501982758
+          },
+          "entropy_norm_mean": {
+            "mean": 0.23943468318248456,
+            "std": 0.10929730385064224
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.08303295938298105,
+            "std": 0.05721408523404614
+          }
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 2.12,
+            "std": 0.22803508501982758
+          },
+          "entropy_norm_mean": {
+            "mean": 0.32179924076721755,
+            "std": 0.1299982164267189
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.08303295938298105,
+            "std": 0.05721408523404614
+          }
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 2.12,
+            "std": 0.2683281572999748
+          },
+          "entropy_norm_mean": {
+            "mean": 0.31738503143594027,
+            "std": 0.1302251895111851
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.08303295938298105,
+            "std": 0.05721408523404614
+          }
+        }
+      },
+      "k4": {
+        "train": {
+          "active_protos_mean": {
+            "mean": 3.4800000000000004,
+            "std": 0.22803508501982753
+          },
+          "entropy_norm_mean": {
+            "mean": 0.2532263969293587,
+            "std": 0.03160708974963479
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.0682940787449479,
+            "std": 0.018944237126754734
+          }
+        },
+        "val": {
+          "active_protos_mean": {
+            "mean": 2.48,
+            "std": 0.363318042491699
+          },
+          "entropy_norm_mean": {
+            "mean": 0.3219091449095294,
+            "std": 0.04293055223874734
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.0682940787449479,
+            "std": 0.018944237126754734
+          }
+        },
+        "test": {
+          "active_protos_mean": {
+            "mean": 2.5200000000000005,
+            "std": 0.2280350850198275
+          },
+          "entropy_norm_mean": {
+            "mean": 0.3260802469757585,
+            "std": 0.06842983022411925
+          },
+          "pairwise_cos_mean": {
+            "mean": 0.0682940787449479,
+            "std": 0.018944237126754734
+          }
+        }
+      }
+    }
+  },
+  "provenance": {
+    "new_run_dirs": [
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122348_mproto_k1_L24_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122410_mproto_k2_L24_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122435_mproto_k3_L24_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122459_mproto_k4_L24_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122326_mproto_proto_L24_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122544_mproto_k1_L24_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122606_mproto_k2_L24_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122629_mproto_k3_L24_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122653_mproto_k4_L24_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122522_mproto_proto_L24_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122738_mproto_k1_L24_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122801_mproto_k2_L24_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122822_mproto_k3_L24_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122844_mproto_k4_L24_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122715_mproto_proto_L24_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122927_mproto_k1_L24_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122948_mproto_k2_L24_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123009_mproto_k3_L24_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123039_mproto_k4_L24_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-122906_mproto_proto_L24_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123123_mproto_k1_L24_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123144_mproto_k2_L24_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123205_mproto_k3_L24_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123224_mproto_k4_L24_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123102_mproto_proto_L24_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123303_mproto_k1_L32_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123322_mproto_k2_L32_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123343_mproto_k3_L32_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123404_mproto_k4_L32_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123244_mproto_proto_L32_s42",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123446_mproto_k1_L32_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123508_mproto_k2_L32_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123528_mproto_k3_L32_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123549_mproto_k4_L32_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123426_mproto_proto_L32_s43",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123631_mproto_k1_L32_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123651_mproto_k2_L32_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123712_mproto_k3_L32_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123731_mproto_k4_L32_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123611_mproto_proto_L32_s44",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123810_mproto_k1_L32_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123831_mproto_k2_L32_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123853_mproto_k3_L32_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123917_mproto_k4_L32_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123751_mproto_proto_L32_s45",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-124000_mproto_k1_L32_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-124022_mproto_k2_L32_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-124045_mproto_k3_L32_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-124106_mproto_k4_L32_s46",
+      "F:\\CODE-value_alignment\\openset\\merge-b7-mproto\\outputs\\20261020-123939_mproto_proto_L32_s46"
+    ],
+    "old_cac_dirs": [
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122015_b7_abtt1_L24_s42_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122112_b7_abtt1_L24_s43_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122157_b7_abtt1_L24_s44_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122253_b7_abtt1_L24_s45_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122350_b7_abtt1_L24_s46_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122439_b7_abtt1_L32_s42_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122527_b7_abtt1_L32_s43_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122616_b7_abtt1_L32_s44_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122708_b7_abtt1_L32_s45_cac",
+      "F:\\CODE-value_alignment\\openset\\merge-b7\\outputs\\20261013-122757_b7_abtt1_L32_s46_cac"
+    ]
+  }
+}
